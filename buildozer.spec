@@ -313,7 +313,7 @@ android.allow_backup = True
 #
 # Python for android (p4a) specific
 #
-use_p4a = False
+#use_p4a = False
 
 # (str) python-for-android URL to use for checkout
 #p4a.url =
@@ -323,6 +323,7 @@ use_p4a = False
 
 # (str) python-for-android branch to use, defaults to master
 #p4a.branch = master
+p4a.branch = release-2022.12.20
 
 # (str) python-for-android specific commit to use, defaults to HEAD, must be within p4a.branch
 #p4a.commit = HEAD
