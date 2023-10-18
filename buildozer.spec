@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = AIS Free Wifi
+title = AISFreeWifi
 
 # (str) Package name
 package.name = aisfreewifi
@@ -64,7 +64,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.10
+osx.python_version = 3.10.5
 
 # Kivy version to use
 osx.kivy_version = 1.9.1
@@ -107,13 +107,13 @@ android.api = 31
 android.minapi = 21
 
 # (int) Android SDK version to use
-#android.sdk = 20
+android.sdk = 20
 
 # (str) Android NDK version to use
 android.ndk = 25
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
-#android.ndk_api = 21
+android.ndk_api = 21
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 android.private_storage = True
