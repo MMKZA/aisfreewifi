@@ -101,22 +101,22 @@ android.permissions = INTERNET,ACCESS_NETWORK_STATE,SEND_SMS,RECEIVE_SMS,READ_SM
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-#android.api = 31
+android.api = 31
 
 # (int) Minimum API your APK / AAB will support.
-#android.minapi = 21
+android.minapi = 21
 
 # (int) Android SDK version to use
 #android.sdk = 20
 
 # (str) Android NDK version to use
-#android.ndk = 25
+android.ndk = 25
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
-#android.private_storage = True
+android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path =
@@ -139,11 +139,11 @@ android.permissions = INTERNET,ACCESS_NETWORK_STATE,SEND_SMS,RECEIVE_SMS,READ_SM
 # android.accept_sdk_license = False
 
 # (str) Android entry point, default is ok for Kivy-based app
-android.entrypoint = org.kivy.android.PythonActivity
+#android.entrypoint = org.kivy.android.PythonActivity
 
 # (str) Full name including package path of the Java class that implements Android Activity
 # use that parameter together with android.entrypoint to set custom Java class instead of PythonActivity
-android.activity_class_name = org.kivy.android.PythonActivity
+#android.activity_class_name = org.kivy.android.PythonActivity
 
 # (str) Extra xml to write directly inside the <manifest> element of AndroidManifest.xml
 # use that parameter to provide a filename from where to load your custom XML code
